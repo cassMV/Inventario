@@ -1,0 +1,133 @@
+.accionesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #e5e5e5;
+  font-family: 'Times New Roman';
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.accionesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a12d2f;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 80px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.userIcon img {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.menuLateral {
+  display: flex;
+  flex-direction: column;
+  background-color: #a12d2f;
+  padding: 10px;
+  width: 200px;
+}
+
+.backButton {
+  background-color: #a12d2f;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuList li {
+  font-size: 18px;
+  color: #ffffff; /* Color del texto */
+  padding: 9.3px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+  background-color: #a12d2f; /* Color de fondo */
+  border: 1px solid #000000; /* Borde de 2px blanco */
+  border-radius: 2px; /* Bordes redondeados */
+  text-align: center; /* Centrar el texto */
+}
+
+.menuList li:hover {
+  transform: scale(1.05); /* Agranda ligeramente el botón al pasar el mouse */
+  background-color: #e5e5e5; /* Cambia el fondo al pasar el mouse */
+  color: #4a4a4a; /* Cambia el color del texto al pasar el mouse */
+  border-color: #4a4a4a; /* Cambia el color del borde al pasar el mouse */
+}
+
+.accionesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  text-align: center;
+  margin-left: 250px;
+  font-family: 'Times New Roman';
+}
+
+.titleAcciones {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 55px;
+}
+
+.accionesContent h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.accionesIcon img {
+  width: 300px;
+  height: 300px;
+  opacity: 0.2;
+  margin-top: 100px;
+}
+
+.homeButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.homeButton:hover {
+  background-color: #555;
+}
+
+.menuTitle {
+  text-align: center;
+  margin: 0;
+  padding: 7px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}

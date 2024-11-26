@@ -1,0 +1,178 @@
+.agregarSubcuentaContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e5e5e5;
+    font-family: 'Times New Roman';
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  
+  .agregarSubcuentaHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a12d2f;
+    padding: 10px 20px;
+  }
+  
+  .agregarSubcuentaLogo {
+    height: 80px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .agregarSubcuentaUserIcon img {
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .agregarSubcuentaMenuLateral {
+    display: flex;
+    flex-direction: column;
+    background-color: #a12d2f;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .agregarSubcuentaBackButton {
+    background-color: #a12d2f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  .agregarSubcuentaMenuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .agregarSubcuentaMenuList li {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 9.7px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+    background-color: #a12d2f;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .agregarSubcuentaMenuList li:hover {
+    transform: scale(1.05);
+    background-color: #e5e5e5;
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+  }
+  
+  .agregarSubcuentaActive {
+    background-color: #ffffff;
+    color: #644141;
+    font-weight: bold;
+  }
+  
+  .agregarSubcuentaMenuTitle {
+    text-align: center;
+    margin: 0;
+    padding: 7px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .agregarSubcuentaMainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    text-align: center;
+    margin-left: 250px;
+    font-family: 'Times New Roman';
+  }
+  
+  .agregarSubcuentaTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  
+  .agregarSubcuentaFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+  }
+
+  .agregarSubcuentaFormRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .agregarSubcuentaInput {
+    padding: 10px;
+    border: 1px solid #a12d2f;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .agregarSubcuentaInput2 {
+    width: 250px; /* Ancho fijo */
+    padding: 10px;
+    border: 1px solid #a12d2f;
+    border-radius: 5px;
+  }
+  
+  .agregarSubcuentaSelect {
+    padding: 10px;
+    border: 1px solid #a12d2f;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .agregarSubcuentaFormActions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .agregarSubcuentaBackButtonAction,
+  .agregarSubcuentaAddButton {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .agregarSubcuentaHomeButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .agregarSubcuentaHomeButton:hover {
+    background-color: #555;
+  }
+  

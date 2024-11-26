@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d3d3d3;
+}
+
+/* Contenedor principal del login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  max-width: 500px;
+  background-color: #00000000;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 400px; /* Define una altura mínima */
+  padding: 40px 10px; /* Aumenta el padding */
+}
+
+/* Caja de login */
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cacaca;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350%;
+  max-width: 300px;
+  min-height: 300px; /* Define una altura mínima */
+  padding: 30px 5px; /* Aumenta el padding */
+}
+
+/* Logo */
+.login-logo {
+  position: absolute;
+  top: 21%; /* Ajusta este valor para la distancia desde la parte superior */
+  display: flex;
+  justify-content: center;
+  width: 6%;
+}
+
+/* Título */
+.login-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botón */
+.login-button {
+  padding: 7px 18px;
+  background-color: #a12d2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+  font-family: 'Times New Roman';
+  margin-top: 15px;
+}
+
+.login-button:hover {
+  transform: scale(1.1); /* Agranda el botón al 110% */
+  background-color: #dbdbdb; /* Cambia el color de fondo al pasar el cursor */
+  color: #a12d2f; /* Cambia el color del texto para contraste */
+}
+
+/* Logo de Hidalgo */
+.logo-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logo-hidalgo {
+  width: 400px;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,177 @@
+.agregarEmpleadoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #e5e5e5;
+  font-family: 'Times New Roman';
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.agregarEmpleadoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a12d2f;
+  padding: 10px 20px;
+}
+
+.agregarEmpleadoLogo {
+  height: 80px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.agregarEmpleadoUserIcon img {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.agregarEmpleadoMenuLateral {
+  display: flex;
+  flex-direction: column;
+  background-color: #a12d2f;
+  padding: 10px;
+  width: 200px;
+}
+
+.agregarEmpleadoBackButton {
+  background-color: #a12d2f;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.agregarEmpleadoMenuList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.agregarEmpleadoMenuList li {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 9.3px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+  background-color: #a12d2f;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.agregarEmpleadoMenuList li:hover {
+  transform: scale(1.05);
+  background-color: #e5e5e5;
+  color: #4a4a4a;
+  border-color: #4a4a4a;
+}
+
+.agregarEmpleadoActive {
+  background-color: #ffffff;
+  color: #644141;
+  font-weight: bold;
+}
+
+.agregarEmpleadoMenuTitle {
+  text-align: center;
+  margin: 0;
+  padding: 7px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.agregarEmpleadoMainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  text-align: center;
+  margin-left: 250px;
+  font-family: 'Times New Roman';
+}
+
+.agregarEmpleadoTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.agregarEmpleadoFormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.agregarEmpleadoFormRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.agregarEmpleadoFormActions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.agregarEmpleadoInput {
+  padding: 10px;
+  border: 1px solid #a12d2f;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.agregarEmpleadoInput2 {
+  width: 250px; /* Ancho fijo */
+  padding: 10px;
+  border: 1px solid #a12d2f;
+  border-radius: 5px;
+}
+
+.agregarEmpleadoSelect {
+  padding: 10px;
+  border: 1px solid #a12d2f;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.agregarEmpleadoBackButtonAction,
+.agregarEmpleadoAddButton {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.agregarEmpleadoHomeButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.agregarEmpleadoHomeButton:hover {
+  background-color: #555;
+}
