@@ -9,6 +9,7 @@ function AgregarTipoAlta({ onBack }) {
     <div className={styles.agregarTipoAltaContainer}>
       <main className={styles.agregarTipoAltaMainContent}>
         <h2 className={styles.agregarTipoAltaTitle}>Agregar Tipo de Alta</h2>
+        <div  className={styles.agregarTipoAltaFormContainer}>
         <div className={styles.agregarTipoAltaFormRow}>
           <input
             type="text"
@@ -22,6 +23,7 @@ function AgregarTipoAlta({ onBack }) {
             <option value="Donacion">Donación</option>
             <option value="Comodato">Comodato</option>
           </select>
+        </div>
         </div>
         <div className={styles.agregarTipoAltaFormActions}>
           <button

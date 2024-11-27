@@ -24,17 +24,15 @@ const ListaDesplegable = () => {
   ];
 
   return (
-    <div className={styles.agregarAreaMenuLateral}>
-      <button className={styles.agregarAreaBackButton} onClick={() => navigate("/menu")}>
-        ←
-      </button>
-      <ul className={styles.agregarAreaMenuList}>
-        <h2 className={styles.agregarAreaMenuTitle}>Agregar</h2>
+    <div className={styles.ListaMenuLateral}>
+      <button className={styles.ListaBackButton} onClick={() => navigate("/menu")}>←</button>
+      <ul className={styles.ListaMenuList}>
+        <h2 className={styles.ListaMenuTitle}>Agregar</h2>
         {items.map((item, index) => (
           <li
             key={index}
-            className={`${styles.agregarAreaMenuItem} ${
-              location.pathname === item.path ? styles.agregarAreaActive : ""
+            className={`${styles.ListaMenuItem} ${
+              location.pathname === item.path ? styles.ListaActive : ""
             }`}
           >
             <Link to={item.path} className={styles.link}>

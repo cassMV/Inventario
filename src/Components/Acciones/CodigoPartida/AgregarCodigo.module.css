@@ -4,7 +4,7 @@
   height: 100vh;
   background-color: #e5e5e5;
   font-family: 'Times New Roman';
-  width: 100vw;
+  width: 0vw;
   box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@
   top: 15%;
   width: 80%;
   text-align: center;
-  margin-left: 250px;
+  margin-left: 0px;
   font-family: 'Times New Roman';
 }
 
@@ -47,6 +47,7 @@
   border: 1px solid #a12d2f;
   border-radius: 5px;
   width: 100%;
+  margin-right: 20px;
 }
 
 .agregarCodigoInput2 {
@@ -54,6 +55,7 @@
   padding: 10px;
   border: 1px solid #a12d2f;
   border-radius: 5px;
+  margin-right: 20px;
 }
 
 .agregarCodigoFormActions {

@@ -1,8 +1,6 @@
-/* Contenedor de la lista desplegable */
-/* Contenedor de la lista desplegable */
-.agregarAreaMenuLateral {
-    margin-top: 110px; /* Ajusta el margen para separarlo del navbar */
-    width: 250px;
+.ListaMenuLateral {
+    margin-top: 100px; /* Ajusta el margen para separarlo del navbar */
+    width: 230px;
     background-color: #a12d2f; /* Fondo rojo oscuro */
     padding: 20px;
     border-right: 1px solid #ddd; /* Separador */
@@ -10,38 +8,37 @@
     flex-direction: column; /* Alinea los elementos en columna */
   }
   
-  
   /* Título de la lista */
-  .agregarAreaMenuTitle {
+  .ListaMenuTitle {
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     color: #ffffff; /* Texto blanco */
-    margin-bottom: 10px; /* Separación con la lista */
+    margin-bottom: 5px; /* Separación con la lista */
   }
   
   /* Botón para retroceder */
-  .agregarAreaBackButton {
+  .ListaBackButton {
     background-color: #a12d2f; /* Fondo rojo oscuro */
     color: white; /* Texto blanco */
     font-size: 20px;
     border: none;
     cursor: pointer;
     text-align: left;
-    margin-bottom: 10px; /* Espaciado con respecto a otros elementos */
+    margin-bottom: 0px; /* Espaciado con respecto a otros elementos */
   }
   
   /* Lista de elementos */
-  .agregarAreaMenuList {
+  .ListaMenuList {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
-  .agregarAreaMenuList li {
+  .ListaMenuList li {
     font-size: 18px;
     color: #ffffff; /* Texto blanco */
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease; /* Animación suave */
     background-color: #a12d2f; /* Fondo rojo oscuro */
@@ -51,14 +48,14 @@
   }
   
   /* Estilo de elemento activo */
-  .agregarAreaActive {
+  .ListaActive {
     background-color: #ffffff; /* Fondo blanco */
     color: #644141; /* Texto rojo oscuro */
     font-weight: bold; /* Negrita */
   }
   
   /* Efecto hover */
-  .agregarAreaMenuList li:hover {
+  .ListaMenuList li:hover {
     transform: scale(1.05); /* Agranda ligeramente el elemento */
     background-color: #e5e5e5; /* Fondo gris claro */
     color: #4a4a4a; /* Texto gris oscuro */
@@ -70,8 +67,8 @@
     color: inherit; /* Hereda el color del elemento padre */
   }
   
-  .agregarAreaActive {
-    background-color: #ffffff; /* Fondo blanco para la ruta activa */
+  .ListaActive {
+    background-color: #e5e5e5; /* Fondo blanco para la ruta activa */
     color: #a12d2f; /* Texto en rojo oscuro */
     font-weight: bold; /* Negrita */
   }

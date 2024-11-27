@@ -9,10 +9,10 @@ function App() {
       <div>
         {/* Navbar fijo en la parte superior */}
         <Navbar />
-        
         {/* Contenedor principal con las rutas */}
         <Routes>
           {/* Ruta principal de acciones con rutas anidadas */}
+
           <Route path="/acciones/*" element={<Acciones />} />
           <Route path="/menu" element={<Menu/>} />
           {/* Agrega otras rutas principales si es necesario */}

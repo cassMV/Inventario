@@ -11,16 +11,8 @@ const AgregarArea = ({ onBack }) => {
         <h2 className={styles.agregarAreaTitle}>Agregar Área</h2>
         <div className={styles.agregarAreaFormContainer}>
           <div className={styles.agregarAreaFormRow}>
-            <input
-              type="text"
-              placeholder="Área (ID)"
-              className={styles.agregarAreaInput2}
-            />
-            <input
-              type="text"
-              placeholder="Nombre del Área"
-              className={styles.agregarAreaInput}
-            />
+            <input type="text" placeholder="Área (ID)" className={styles.agregarAreaInput2}/>
+            <input type="text" placeholder="Nombre del Área" className={styles.agregarAreaInput}/>
           </div>
         </div>
         <div className={styles.agregarAreaFormActions}>
