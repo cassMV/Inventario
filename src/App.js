@@ -52,6 +52,7 @@ function App() {
     console.log('Navigating to:', view); // Verifica qué valor se recibe
     setCurrentView(view);
   };
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -65,38 +66,38 @@ function App() {
             onNavigateTo={(component) => navigateTo(component)}/>
         ) : currentView === 'agregarBien' ? (
           <AgregarBien 
-            onBack={() => navigateTo('acciones')}
+            onBack={() => navigateTo('Acciones')}
             onNavigateTo={(component) => navigateTo(component)} // Navega a cualquier componente
             onNext={() => navigateTo('agregarBien2')}
           />
         ) : currentView === 'agregarBien2' ? (
           <AgregarBien2 onBack={() => navigateTo('agregarBien')} />
         ) : currentView === 'agregarArea' ? (
-          <AgregarArea onBack={() => navigateTo('acciones')} />
+          <AgregarArea onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarEmpleado' ? (
-          <AgregarEmpleado onBack={() => navigateTo('acciones')} />
+          <AgregarEmpleado onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarProducto' ? (
-          <AgregarProducto onBack={() => navigateTo('acciones')} />
+          <AgregarProducto onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarRol' ? (
-          <AgregarRol onBack={() => navigateTo('acciones')} />
+          <AgregarRol onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarDireccion' ? (
-          <AgregarDireccion onBack={() => navigateTo('acciones')} />
+          <AgregarDireccion onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarStatus' ? (
-          <AgregarStatus onBack={() => navigateTo('acciones')} />
+          <AgregarStatus onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarMarca' ? (
-          <AgregarMarca onBack={() => navigateTo('acciones')} />
+          <AgregarMarca onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarTipoAlta' ? (
-          <AgregarTipoAlta onBack={() => navigateTo('acciones')} />
+          <AgregarTipoAlta onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarDocumento' ? (
-          <AgregarDocumento onBack={() => navigateTo('acciones')} />
+          <AgregarDocumento onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarCodigo' ? (
-          <AgregarCodigo onBack={() => navigateTo('acciones')} />
+          <AgregarCodigo onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarSubcuenta' ? (
-          <AgregarSubcuenta onBack={() => navigateTo('acciones')} />
+          <AgregarSubcuenta onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarRecurso' ? (
-          <AgregarRecurso onBack={() => navigateTo('acciones')} />
+          <AgregarRecurso onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'agregarTipoPosesion' ? (
-          <AgregarTipoPosesion onBack={() => navigateTo('acciones')} />
+          <AgregarTipoPosesion onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'BajaBien' ? (
           <BajaBien
             onBack={() => navigateTo('menu')}
