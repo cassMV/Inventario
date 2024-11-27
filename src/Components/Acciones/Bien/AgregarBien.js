@@ -1,11 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './AgregarBien.module.css';
 
 function AgregarBien({ onBack, onNext }) {
+  const navigate = useNavigate(); // Hook para manejar la navegación
+
   return (
     <div className={styles.agregarBienContainer}>
-      
-     
       <main className={styles.agregarBienMainContent}>
         <h2 className={styles.agregarBienTitle}>Agregar Bien</h2>
         <div className={styles.agregarBienSearchContainer}>
@@ -41,18 +42,28 @@ function AgregarBien({ onBack, onNext }) {
           </table>
         </div>
         <div className={styles.agregarBienFormActions}>
-          <button className={styles.agregarBienBackButtonAction} onClick={onBack}>
+          <button
+            className={styles.agregarBienBackButtonAction}
+            onClick={onBack}
+          >
             Atrás
           </button>
-          <button className={styles.agregarBienNextButton} onClick={onNext}>
+          <button
+            className={styles.agregarBienNextButton}
+            onClick={onNext}
+          >
             Siguiente
           </button>
         </div>
       </main>
-      <button className={styles.agregarBienHomeButton}>🏠</button>
+      <button
+        className={styles.agregarBienHomeButton}
+        onClick={() => navigate('/menu')}
+      >
+        🏠
+      </button>
     </div>
   );
 }
 
 export default AgregarBien;
-
