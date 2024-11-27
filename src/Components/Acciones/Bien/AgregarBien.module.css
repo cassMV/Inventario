@@ -8,83 +8,6 @@
   box-sizing: border-box;
 }
 
-.agregarBienHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #a12d2f;
-  padding: 10px 20px;
-}
-
-.agregarBienLogo {
-  height: 80px;
-  width: 400px;
-  border-radius: 5px;
-}
-
-.agregarBienUserIcon img {
-  height: 70px;
-  border-radius: 50%;
-}
-
-.agregarBienMenuLateral {
-  display: flex;
-  flex-direction: column;
-  background-color: #a12d2f;
-  padding: 10px;
-  width: 200px;
-}
-
-.agregarBienBackButton {
-  background-color: #a12d2f;
-  color: white;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  margin-bottom: 0px;
-}
-
-.agregarBienMenuList {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.agregarBienMenuList li {
-  font-size: 18px;
-  color: #ffffff;
-  padding: 9.3px;
-  cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
-  background-color: #a12d2f;
-  border: 1px solid #000000;
-  border-radius: 2px;
-  text-align: center;
-}
-
-.agregarBienMenuList li:hover {
-  transform: scale(1.05);
-  background-color: #e5e5e5;
-  color: #4a4a4a;
-  border-color: #4a4a4a;
-}
-
-.agregarBienActive {
-  background-color: #ffffff;
-  color: #644141;
-  font-weight: bold;
-}
-
-.agregarBienMenuTitle {
-  text-align: center;
-  margin: 0;
-  padding: 7px 50px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffffff;
-}
-
 .agregarBienMainContent {
   display: flex;
   flex-direction: column;
@@ -215,6 +138,3 @@
 .agregarBienHomeButton:hover {
   background-color: #555;
 }
-
-
-

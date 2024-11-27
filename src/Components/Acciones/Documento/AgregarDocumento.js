@@ -1,37 +1,10 @@
 import React from 'react';
 import styles from './AgregarDocumento.module.css';
-import Logo from '../imagenes/logo.jpeg';
-import Logo2 from '../imagenes/Usuario.PNG';
 
 function AgregarDocumento({ onBack }) {
   return (
     <div className={styles.agregarDocumentoContainer}>
-      <header className={styles.agregarDocumentoHeader}>
-        <img src={Logo} alt="Hidalgo Logo" className={styles.agregarDocumentoLogo} />
-        <div className={styles.agregarDocumentoUserIcon}>
-          <img src={Logo2} alt="User Icon" />
-        </div>
-      </header>
-      <div className={styles.agregarDocumentoMenuLateral}>
-        <button className={styles.agregarDocumentoBackButton} onClick={onBack}>←</button>
-        <ul className={styles.agregarDocumentoMenuList}>
-          <h2 className={styles.agregarDocumentoMenuTitle}>Agregar</h2>
-          <li>Bien</li>
-          <li>Área</li>
-          <li>Empleado</li>
-          <li>Producto</li>
-          <li>Rol</li>
-          <li>Dirección</li>
-          <li>Status del Bien</li>
-          <li>Marca</li>
-          <li>Tipo de Alta</li>
-          <li className={styles.agregarDocumentoActive}>Documentos</li>
-          <li>Código de Partida Específica</li>
-          <li>Subcuenta Armonizada</li>
-          <li>Recurso del Origen</li>
-          <li>Tipo de posesión</li>
-        </ul>
-      </div>
+ 
       <main className={styles.agregarDocumentoMainContent}>
         <h2 className={styles.agregarDocumentoTitle}>Agregar Documento</h2>
         <div className={styles.agregarDocumentoFormContainer}>

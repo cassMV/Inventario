@@ -8,74 +8,6 @@
   box-sizing: border-box;
 }
 
-.agregarDireccionHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #a12d2f;
-  padding: 10px 20px;
-}
-
-.agregarDireccionLogo {
-  height: 80px;
-  width: 400px;
-  border-radius: 5px;
-}
-
-.agregarDireccionUserIcon img {
-  height: 70px;
-  border-radius: 50%;
-}
-
-.agregarDireccionMenuLateral {
-  display: flex;
-  flex-direction: column;
-  background-color: #a12d2f;
-  padding: 10px;
-  width: 200px;
-}
-
-.agregarDireccionBackButton {
-  background-color: #a12d2f;
-  color: white;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  margin-bottom: 0px;
-}
-
-.agregarDireccionMenuList {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.agregarDireccionMenuList li {
-  font-size: 18px;
-  color: #ffffff;
-  padding: 9.3px;
-  cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
-  background-color: #a12d2f;
-  border: 1px solid #000000;
-  border-radius: 2px;
-  text-align: center;
-}
-
-.agregarDireccionMenuList li:hover {
-  transform: scale(1.05);
-  background-color: #e5e5e5;
-  color: #4a4a4a;
-  border-color: #4a4a4a;
-}
-
-.agregarDireccionActive {
-  background-color: #ffffff;
-  color: #644141;
-  font-weight: bold;
-}
-
 .agregarDireccionMainContent {
   display: flex;
   flex-direction: column;
@@ -94,15 +26,6 @@
   font-size: 30px;
   font-weight: bold;
   margin-top: 25px;
-}
-
-.agregarDireccionMenuTitle {
-  text-align: center;
-  margin: 0;
-  padding: 7px 50px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffffff;
 }
 
 .agregarDireccionFormContainer {
@@ -127,7 +50,7 @@
 }
 
 .agregarDireccionInput2 {
-  width: 250px; /* Ancho fijo */
+  width: 250px;
   padding: 10px;
   border: 1px solid #a12d2f;
   border-radius: 5px;
