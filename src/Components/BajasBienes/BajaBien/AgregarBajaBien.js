@@ -16,21 +16,7 @@ function AgregarBajaBien({ onBack }) {
         <button className={styles.agregarBajaBienBackButton} onClick={onBack}>←</button>
         <ul className={styles.agregarBajaBienMenuList}>
           <h2 className={styles.agregarBajaBienMenuTitle}>Agregar</h2>
-          <li>Bien</li>
-          <li>Área</li>
-          <li>Empleado</li>
           <li className={styles.agregarBajaBienActive}>Baja Bien</li>
-          <li>Producto</li>
-          <li>Rol</li>
-          <li>Dirección</li>
-          <li>Status del Bien</li>
-          <li>Marca</li>
-          <li>Tipo de Alta</li>
-          <li>Documentos</li>
-          <li>Código de Partida Específica</li>
-          <li>Subcuenta Armonizada</li>
-          <li>Recurso del Origen</li>
-          <li>Tipo de posesión</li>
         </ul>
       </div>
       <main className={styles.agregarBajaBienMainContent}>

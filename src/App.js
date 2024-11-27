@@ -5,8 +5,7 @@ import './Components/Acciones/Acciones.module.css'
 import './Components/Acciones/Bien/AgregarBien.module.css'
 import './Components/Acciones/Bien2/AgregarBien2.module.css'
 import './Components/Acciones/Area/AgregarArea.module.css'
-import './Components/Acciones/Empleado/AgregarEmpleado.module.css'
-import './Components/BajasBienes/BajaBien/AgregarBajaBien.module.css' 
+import './Components/Acciones/Empleado/AgregarEmpleado.module.css' 
 import './Components/Acciones/Producto/AgregarProducto.module.css'
 import './Components/Acciones/Rol/AgregarRol.module.css'
 import './Components/Acciones/Direccion/AgregarDireccion.module.css'
@@ -19,6 +18,8 @@ import './Components/Acciones/SubcuentaArmonizada/AgregarSubcuenta.module.css'
 import './Components/Acciones/RecursoOrigen/AgregarRecurso.module.css'
 import './Components/Acciones/TipoPosesion/AgregarTipoPosesion.module.css'
 import './Components/BajasBienes/BajaBien.module.css'
+import './Components/BajasBienes/BajaBien2/AgregarBajaBien2.module.css'
+import './Components/BajasBienes/BajaBien/AgregarBajaBien.module.css'
 import Login from './Components/Login/Login.js'
 import Menu from './Components/Menu/Menu.js'
 import Acciones from './Components/Acciones/Acciones.js'
@@ -38,6 +39,8 @@ import AgregarSubcuenta from './Components/Acciones/SubcuentaArmonizada/AgregarS
 import AgregarRecurso from './Components/Acciones/RecursoOrigen/AgregarRecurso.js';
 import AgregarTipoPosesion from './Components/Acciones/TipoPosesion/AgregarTipoPosesion.js';
 import BajaBien from './Components/BajasBienes/BajaBien.js'
+import AgregarBajaBien2 from './Components/BajasBienes/BajaBien2/AgregarBajaBien2.js';
+import AgregarBajaBien from './Components/BajasBienes/BajaBien/AgregarBajaBien.js'
 
 function App() {
 
@@ -99,9 +102,15 @@ function App() {
         ) : currentView === 'agregarTipoPosesion' ? (
           <AgregarTipoPosesion onBack={() => navigateTo('Acciones')} />
         ) : currentView === 'BajaBien' ? (
-          <BajaBien
+          <BajaBien 
             onBack={() => navigateTo('menu')}
             onNavigateTo={(component) => navigateTo(component)}/>
+        ) : currentView === 'AgregarBajaBien2' ? (
+          <AgregarBajaBien2 onBack={() => navigateTo('BajaBien')} 
+            onNavigateTo={(component) => navigateTo(component)} // Navega a cualquier componente
+            onNext={() => navigateTo('AgregarBajaBien')}/>
+        ) : currentView === 'AgregarBajaBien' ? (
+          <AgregarBajaBien onBack={() => navigateTo('AgregarBajaBien2')} />
         ) : null}
 
       </header>

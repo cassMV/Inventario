@@ -16,21 +16,7 @@ function AgregarBajaBien2({ onBack, onNext }) {
         <button className={styles.agregarBajaBien2BackButton} onClick={onBack}>←</button>
         <ul className={styles.agregarBajaBien2MenuList}>
           <h2 className={styles.agregarBajaBien2MenuTitle}>Agregar</h2>
-          <li>Bien</li>
-          <li>Área</li>
-          <li>Empleado</li>
           <li className={styles.agregarBajaBien2Active}>Baja Bien</li>
-          <li>Producto</li>
-          <li>Rol</li>
-          <li>Dirección</li>
-          <li>Status del Bien</li>
-          <li>Marca</li>
-          <li>Tipo de Alta</li>
-          <li>Documentos</li>
-          <li>Código de Partida Específica</li>
-          <li>Subcuenta Armonizada</li>
-          <li>Recurso del Origen</li>
-          <li>Tipo de posesión</li>
         </ul>
       </div>
       <main className={styles.agregarBajaBien2MainContent}>
@@ -38,27 +24,31 @@ function AgregarBajaBien2({ onBack, onNext }) {
         <div className={styles.agregarBajaBien2SearchContainer}>
           <input
             type="text"
-            placeholder="Empleado (ID)"
+            placeholder="Bien (ID)"
             className={styles.agregarBajaBien2SearchInput}
           />
           <button className={styles.agregarBajaBien2SearchButton}>🔍</button>
         </div>
         <div className={styles.agregarBajaBien2TableContainer}>
-          <h3>Lista de empleados:</h3>
+          <h3>Lista de bienes:</h3>
           <table className={styles.agregarBajaBien2Table}>
             <thead>
               <tr>
-                <th>Nombre</th>
-                <th>ID</th>
-                <th>Departamento</th>
+                <th>Serie</th>
+                <th>No. de inventario</th>
+                <th>Costo</th>
+                <th>Estado</th>
+                <th>Etc</th>
                 <th>Opciones</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Ejemplo Empleado</td>
-                <td>001</td>
-                <td>Finanzas</td>
+                <td>dnjkwv</td>
+                <td>122324</td>
+                <td>1200</td>
+                <td>Mal</td>
+                <td>...</td>
                 <td>
                   <button className={styles.agregarBajaBien2EditButton}>✏️</button>
                   <button className={styles.agregarBajaBien2DeleteButton}>❌</button>

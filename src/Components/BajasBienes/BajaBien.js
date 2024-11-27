@@ -17,9 +17,7 @@ function BajaBien({ onBack, onNavigateTo }) {
         <button className={styles.backButtonCustom} onClick={onBack}>←</button>
         <ul className={styles.menuListCustom}>
           <h2 className={styles.menuTitleCustom}>Baja de Bienes</h2>
-          <li className={styles.menuListItemCustom} onClick={() => onNavigateTo('BajaBien')}>
-            Baja Bien
-          </li>
+          <li onClick={() => onNavigateTo('AgregarBajaBien2')}>Baja Bien</li>
         </ul>
       </div>
       <main className={styles.bajaBienContentCustom}>

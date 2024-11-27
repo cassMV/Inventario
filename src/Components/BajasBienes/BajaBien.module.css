@@ -5,6 +5,7 @@
     background-color: #e5e5e5;
     font-family: 'Times New Roman';
     width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -51,7 +52,7 @@
     margin: 0;
 }
 
-.menuListItemCustom {
+.menuListCustom li {
     font-size: 18px;
     color: #ffffff;
     padding: 9.3px;
@@ -83,6 +84,13 @@
     margin-left: 250px;
     font-family: 'Times New Roman';
 }
+
+.bajaBienContentCustom h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
 
 .titleBajaBienCustom {
     font-size: 30px;
